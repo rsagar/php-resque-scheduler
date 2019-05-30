@@ -1,12 +1,15 @@
 php-resque-scheduler: PHP Resque Scheduler
 ==========================================
 
+This is a forked from https://github.com/chrisboulton/php-resque-scheduler, version 1.1 to add support for removePrefix. 
+https://github.com/rsagar/php-resque-scheduler package is not maintained regularly
+
 php-resque-scheduler is a PHP port of [resque-scheduler](http://github.com/defunkt/resque),
 which adds support for scheduling items in the future to Resque.
 
 The PHP port of resque-scheduler has been designed to be an almost direct-copy
 of the Ruby plugin, and is designed to work with the PHP port of resque,
-[php-resque](http://github.com/chrisboulton/php-resque).
+[php-resque](http://github.com/rsagar/php-resque).
 
 At the moment, php-resque-scheduler only supports delayed jobs, which is the
 ability to push a job to the queue and have it run at a certain timestamp, or
